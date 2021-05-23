@@ -125,7 +125,7 @@ namespace WeChatHelper
                 {
                     if (weeks.Length > 0)
                     {
-                        str.Append(",");
+                        weeks.Append(",");
                     }
                     weeks.Append(_sendWeeksList[i].EnText);
                 }
